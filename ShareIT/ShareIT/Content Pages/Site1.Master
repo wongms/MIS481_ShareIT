@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ShareIT.Content_Pages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 36px;
+            height: 27px;
+            z-index: 1;
+            left: 1351px;
+            top: 31px;
+            position: absolute;
+        }
+        .auto-style2 {
+            width: 28px;
+            height: 27px;
+            z-index: 1;
+            left: 1395px;
+            top: 32px;
+            position: absolute;
+        }
+        .w3-border {
+            z-index: 1;
+            left: 308px;
+            top: 208px;
+            position: absolute;
+            height: 30px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div Navy>
+            <img src="../Images/Share I.T Logo.jpg" height="195" width="300" style="float:left" /><asp:HyperLink ID="HyperLink5" runat="server" style="z-index: 1; left: 34px; top: 318px; position: absolute">Groups +</asp:HyperLink>
+            <asp:FileUpload ID="FileUpload1" runat="server" style="z-index: 1; left: 16px; top: 565px; position: absolute" />
+&nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div>
+            <img alt="" class="auto-style2" src="../Images/dinosaur.jpg" /></p>
+            <img alt="" class="auto-style1" src="../Images/settings.jpg.png" />
+        </div>
+<div class="w3-container">
+  <div class="w3-bar w3-light-grey w3-border">
+      <style>
+          p{word-spacing: 100px;}
+          .auto-style3 {
+              width: 1037px;
+              height: 168px;
+              z-index: 1;
+              left: 309px;
+              top: 37px;
+              position: absolute;
+          }
+      </style>
+    <a href="#" class="w3-bar-item w3-button w3-mobile">Networking</a>
+    <a href="#" class="w3-bar-item w3-button w3-mobile">Stats</a>
+    <a href="#" class="w3-bar-item w3-button w3-mobile">Project Management</a>
+    <a href="#" class="w3-bar-item w3-button w3-mobile">Database</a>
+    <input type="text" class="w3-bar-item w3-input w3-white w3-mobile" placeholder="Search..">
+    <button class="w3-bar-item w3-button w3-green w3-mobile">Go</button>
+  </div>
+
+        </div>
+        <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 18px; top: 538px; position: absolute" Text="Upload/Download Files"></asp:Label>
+
+    </form>
+    <p>
+        <img alt="" class="auto-style3" src="file:///C:/Users/Matthew/Pictures/images.jpg" /></p>
+    </body>
+</html>
